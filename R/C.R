@@ -9,6 +9,7 @@ str(clima)
 
 
 ####Analisando os dados#####
+
 plot(Mean_temp~Lat, data = clima)
 summary (lm(Mean_temp~Lat, data = clima))
 
