@@ -22,7 +22,6 @@ write.table (matriz_correl, file = (here("output", "tables","correl.csv")),
 
 ###Gerando e exportando um SM##
 bioma <- (unique(clima[,c(10,11)]))
-unique (bioma)
 write.table (bioma, file = (here("output","supp","biome_ID.csv")),
              sep = ",", quote = TRUE)
 
