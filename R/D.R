@@ -1,4 +1,5 @@
-###Carregando 
+###Carregando pacotes###
+
 
 ####Analisando os dados#####
 par(mar=c(3,3,2,2))
